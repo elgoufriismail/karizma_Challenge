@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karizma_Challenge", "Karizma_Challenge\Karizma_Challenge.csproj", "{146F8D16-985B-415F-A436-623669CE4786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{146F8D16-985B-415F-A436-623669CE4786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146F8D16-985B-415F-A436-623669CE4786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146F8D16-985B-415F-A436-623669CE4786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146F8D16-985B-415F-A436-623669CE4786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B5E97D6-C82B-4467-B0CD-93F445542F0A}
+	EndGlobalSection
+EndGlobal

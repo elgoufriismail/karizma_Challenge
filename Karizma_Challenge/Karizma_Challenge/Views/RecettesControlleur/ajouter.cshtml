@@ -1,0 +1,28 @@
+﻿@model Karizma_Challenge.Models.AjouterRecetteViewModel
+
+
+@*
+   
+*@
+@{
+}
+<h1>Ajouter une Recette</h1>
+<form method="post" action="Ajouter" class="mt-5">
+    <div class="form-group">
+        <label for="InputEmail">Nom</label>
+        <input type="text" class="form-control" id="InputEmail" placeholder="Nom" asp-for="Name">
+    </div>
+    <div class="form-group">
+        <label for="InputDureel">Durée</label>
+        <input type="number" class="form-control" id="InputDuree" placeholder="Entrez la durée de préparation" asp-for="duree">
+    </div>
+    <div class="form-group">
+        <label for="InputIngredient">Igredient</label>
+        <input type="Text" class="form-control" id="InputIngredient" placeholder="Entrez un ingredient" >
+    </div>
+    <div class="form-group">
+        <label for="EtapeTextarea">Etape</label>
+        <textarea class="form-control" id="EtapeTextarea" rows="4" asp-for="etape"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
